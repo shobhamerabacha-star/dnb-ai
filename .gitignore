@@ -1,5 +1,4 @@
 # Environment variables
-.env
 
 # Firebase service-account keys — NEVER commit these (they grant full access)
 *firebase-adminsdk*.json
@@ -36,11 +35,11 @@ venv/
 ENV/
 .venv_linux/
 venv_linux/
+venv_ci/
 
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -65,3 +64,5 @@ data/retrieval_index.db-*
 
 # Committed virtual environments are machine-specific — never commit them
 venv_linux/
+config.bat
+node_modules
